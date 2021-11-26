@@ -1,3 +1,3 @@
-module github.com/hexaflex/pnm
+module github.com/hexaflex/gpnm
 
 go 1.14

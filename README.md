@@ -1,4 +1,4 @@
-## pnm
+## gpnm
 
 This package implements an encoder and decoder for `PNM` image formats.
 It can be used with Go's image library. It covers all formats as defined
@@ -38,11 +38,11 @@ and PPM uses 24 bits per pixel: 8 for red, 8 for green, 8 for blue.
 
 ### Usage
 
-    go get github.com/hexaflex/pnm
+    go get github.com/hexaflex/gpnm
 
 
     import "image"
-    import _ "github.com/hexaflex/pnm"
+    import _ "github.com/hexaflex/gpnm"
 
     ...
     img, format, err := image.Decode("myfile.pnm)
